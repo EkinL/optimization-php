@@ -50,7 +50,7 @@ You only have access to the application source code and the database. You don't 
 
 #### Programming fixes /10
 
-The pull request containing the programming solutions you chose to do in your analysis document. 
+The pull request containing the programming solutions you chose to do in your analysis document.
 
 ## Installation
 
@@ -75,7 +75,7 @@ psql postgres://postgres:password@localhost/guitareboissieres -f app/var/db.sql
 
 # Step 4 : start the web server
 
-docker compose exec optimization-php php -s 0.0.0.0:8000 -t public/
+docker compose exec optimization-php php -S 0.0.0.0:8000 -t public/
 ```
 
 Your application should now be live at `http://127.0.0.1:8888/carousel`
